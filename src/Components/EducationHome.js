@@ -91,7 +91,7 @@ const EducationHome = () => {
             <Grid item xs={12} md={6} >
             <Grow in timeout={3000}>
               <picture className={classes.picture}>
-                <img className={classes.img} src={girl}  />
+                <img className={classes.img} src={girl} alt='girl' />
               </picture>
             </Grow>
           </Grid>

@@ -116,8 +116,6 @@ const ContactHome = () => {
         <Grid item xs={12} md={12} className={classes.columnForm}>
           <form onSubmit={handleSubmit} className={classes.form}>
             <TextField
-            className={classes.textfield}
-            className='textfield'
             margin="dense"
             type="name"
             name="from_name"
@@ -128,8 +126,6 @@ const ContactHome = () => {
             onChange={handleChange}
             />
             <TextField
-              className={classes.textfield}
-              className='textfield'
               margin="dense"
               type="email"
               name="from_email"
@@ -141,9 +137,7 @@ const ContactHome = () => {
               required
             />
             <TextField
-             className={classes.textfield}
-             className='textfield'
-             margin="dense"
+              margin="dense"
               multiline
               rows="8"
               name="message_html"
