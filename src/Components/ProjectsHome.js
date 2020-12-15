@@ -7,7 +7,7 @@ import Link from '@material-ui/core/Link';
 import Slide from '@material-ui/core/Slide';
 import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
-import { ProjectsInfo, UrlIcons } from '../Info.json';
+import { ProjectsInfo } from '../Info.json';
 
 // eslint-disable-next-line no-unused-vars
 const useStyles = makeStyles((theme) => ({

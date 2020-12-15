@@ -3,15 +3,11 @@ import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
 import TextField from '@material-ui/core/TextField';
 import Button from '@material-ui/core/Button';
-import Hidden from '@material-ui/core/Hidden';
-import Grow from '@material-ui/core/Grow';
 import Grid from '@material-ui/core/Grid';
 import Slide from '@material-ui/core/Slide';
 import Typography from '@material-ui/core/Typography';
-import CircularProgress from '@material-ui/core/CircularProgress';
 import { makeStyles } from '@material-ui/core/styles';
 import { buttons, ContactInfo } from '../Info.json';
-import './style.css';
 
 // eslint-disable-next-line no-unused-vars
 const useStyles = makeStyles((theme) => ({
@@ -79,15 +75,13 @@ const emptyEmail = {
 
 const ContactHome = () => {
   const classes = useStyles();
-  const { title, zoom, lat, lng, googleMapsKey, userID, serviceID, templateID } = ContactInfo;
+  const { title, userID, serviceID, templateID } = ContactInfo;
   const { wait, submit } = buttons;
   const [loading, setLoading] = useState(false);
   const [message, setMessage] = useState(null);
   const [email, setEmail] = useState(emptyEmail);
 
-  const containerElement = <div style={{ height: '100%' }} />;
-  const mapElement = <div style={{ height: '100%' }} />;
-  const loadingElement = <CircularProgress />;
+ 
 
   const handleChange = (e) => {
     e.persist();

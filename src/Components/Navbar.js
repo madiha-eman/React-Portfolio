@@ -19,10 +19,6 @@ import ContactHome from './ContactHome';
 import ProjectsHome from './ProjectsHome';
 import ExperienceHome from './ExperienceHome';
 import EducationHome from './EducationHome';
-import AssignmentInd from "@material-ui/icons/AssignmentInd";
-import Apps from "@material-ui/icons/Apps";
-import ContactMail from "@material-ui/icons/ContactMail";
-
 import { NavbarInfo } from '../Info.json';
 
 const useStyles = makeStyles({

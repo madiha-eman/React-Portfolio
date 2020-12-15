@@ -1,14 +1,8 @@
 import React from 'react';
-import { v4 as uuidv4 } from 'uuid';
-import Grow from '@material-ui/core/Grow';
-import Grid from '@material-ui/core/Grid';
-import Link from '@material-ui/core/Link';
-import Slide from '@material-ui/core/Slide';
 import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
 import Box from "@material-ui/core/Box";
 
-import { ExperienceInfo, UrlIcons } from '../Info.json';
 
 // eslint-disable-next-line no-unused-vars
 const useStyles = makeStyles((theme) => ({

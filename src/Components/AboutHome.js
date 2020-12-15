@@ -1,6 +1,4 @@
 import React from 'react';
-import { v4 as uuidv4 } from 'uuid';
-import Button from '@material-ui/core/Button';
 import Grow from '@material-ui/core/Grow';
 import Grid from '@material-ui/core/Grid';
 import Slide from '@material-ui/core/Slide';
