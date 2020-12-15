@@ -66,7 +66,7 @@ const AboutHome = () => {
     <Slide direction="up" in timeout={1000}>
       <Grid component="section" container className={classes.root}>
         <div className={classes.background} />
-        <Grid item xs={12} sm={12} md={6} className={classes.columnImg}>
+        <Grid item xs={12} md={6} className={classes.columnImg}>
           <Typography className={classes.title} variant="h2">
            {about.title}
             

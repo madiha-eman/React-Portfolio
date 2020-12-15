@@ -33,7 +33,7 @@ const useStyles = makeStyles((theme) => ({
     fontWeight: 400,
     fontSize: '3em',
     margin: '1rem',
-    color: 'white'
+    color: 'whitesmoke'
   },
   subtitle: {
     fontWeight: 300,
@@ -78,16 +78,15 @@ const EducationHome = () => {
   const { title, text } = EducationInfo;
   return (
     <Slide direction="up" in timeout={1000}>
-      <Grid component="section" container className={classes.root}>
+            <Grid component="section" container className={classes.root}>
         <div className={classes.background} />
-        <Grid item xs={12}>
+        <Grid item xs={12} md={12}>
           <Typography className={classes.title} variant="h2">
             {title}
           </Typography>
         </Grid>
-        <Grid item className={classes.sec}>
           <Grid item xs={12} md={6} component="article" className={classes.article}>
-            <Typography variant="h6">
+            <Typography variant="body1">
               {text}
             </Typography>
             </Grid>
@@ -99,7 +98,6 @@ const EducationHome = () => {
             </Grow>
           </Grid>
           </Grid>
-      </Grid>
     </Slide>
   );
 };

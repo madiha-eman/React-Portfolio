@@ -19,8 +19,7 @@
       "key": "portfolio-logo"
     },
     "resume": {
-      "text": "Resume",
-      "href": "https://docs.google.com/document/d/1RcioneKfm64HyaN28igqRSU2L4h89sp9ThynfsnVlw0/edit?usp=sharing"
+      "text": ""
     }
   },
   "ContactInfo": {
@@ -37,96 +36,28 @@
     "background": "https://portfolio-atc.s3-sa-east-1.amazonaws.com/bg-wall.jpg",
     "projects": [
       {
-        "title": "My WebSite",
+        "title": "Live - A Company WebSite",
         "description": "This is a Personal Project with a DashBoard create with Material-UI. All the sections are editable in the admin Panel. There is a collection of images managed with AWS S3. The website can set a position of GoogleMaps. Products, Services and Social Networks can be created, edited and removed.",
-        "live": "https://website-atc.herokuapp.com/",
-        "source": "https://github.com/AnthonyTC89/website-atc",
-        "screenshots": ["https://raw.githubusercontent.com/AnthonyTC89/website-atc/develop/screenshots/01.png", "https://raw.githubusercontent.com/AnthonyTC89/website-atc/develop/screenshots/02.png"],
+        "live": "https://madiha-eman-project1.netlify.app",
+        "screenshots": ["https://github.com/madiha-eman/Emo-web-Saylani/raw/master/images/company.png"],
         "pinned": true,
         "skills": ["CSS", "React", "Material-UI", "Redux", "RoR", "Heroku", "AWS", "GoogleMaps"],
         "mobile": false
       },
       {
-        "title": "Razorpay - Payment App",
+        "title": "Live - Meal Finder App",
         "description": "This is a Personal Project where the main purpose is know basics about the payment service with Razoray using React and NodeJS. It's very useful for Indian companies",
-        "live": "https://razorpay-demo-atc.herokuapp.com/",
-        "source": "https://github.com/AnthonyTC89/razorpay-demo",
-        "screenshots": ["https://raw.githubusercontent.com/AnthonyTC89/razorpay-demo/develop/screenshots/01.png", "https://raw.githubusercontent.com/AnthonyTC89/razorpay-demo/screenshots/02.png"],
+        "live": "https://madiha-eman-project3.netlify.app",
+        "screenshots": ["https://github.com/madiha-eman/Emo-web-Saylani/raw/master/images/meal.png"],
         "pinned": true,
-        "skills": ["HTML", "CSS", "Material-UI", "React", "nodeJS", "Heroku"],
         "mobile": false
       },
       {
-        "title": "Chat app - Websockets",
+        "title": "E-commerce App(coming soon)",
         "description": "This is a Personal Project where the main purpose is know basics about socket.io with React and NodeJS. This is a responsive website where an User can join in a public chat and share text between other users connected.",
-        "live": "https://chat-app-atc.herokuapp.com/",
-        "source": "https://github.com/AnthonyTC89/chat-app",
-        "screenshots": ["https://raw.githubusercontent.com/AnthonyTC89/chat-app/develop/screenshots/01.png", "https://raw.githubusercontent.com/AnthonyTC89/chat-app/screenshots/02.png"],
+        "live": "",
+        "screenshots": ["https://github.com/madiha-eman/Emo-web-Saylani/raw/master/images/ecom.jpg"],
         "pinned": true,
-        "skills": ["HTML", "CSS", "Bootstrap", "React", "Redux", "nodeJS", "Heroku"],
-        "mobile": false
-      },
-      {
-        "title": "Blogsite",
-        "description": "This is a Personal Project based on Instagram. The main purpose is the security of data with JsonWebToken and sessions with localStorage and sessionStorage. This is a responsive website where an User can create an account with his email or Facebook Account. Create posts, edit posts and edit his profile.",
-        "live": "https://website-atc.herokuapp.com/",
-        "source": "https://github.com/AnthonyTC89/website-atc",
-        "screenshots": ["https://raw.githubusercontent.com/AnthonyTC89/blogsite/develop/screenshots/01.png", "https://raw.githubusercontent.com/AnthonyTC89/blogsite/develop/screenshots/02.png"],
-        "pinned": true,
-        "skills": ["HTML", "CSS", "Bootstrap", "React", "Material-UI", "Redux", "nodeJS", "MongoDB", "Heroku"],
-        "mobile": false
-      },
-      {
-        "title": "Moodle-Pedagogic-School",
-        "description": "This project is a Moodle for a pedagogic school in Peru. A user can create an account of a student in the website. The administrator can update the account of a user to be a professor. A professor can create courses, subjects, schedules, upload documents in the Website. A student can view the courses, subjects, schedules and download the documents. There is guest account to have a view of the courses with less options.",
-        "live": "https://moodle-pedagogico.herokuapp.com/",
-        "source": "https://github.com/AnthonyTC89/moodle",
-        "screenshots": ["https://raw.githubusercontent.com/AnthonyTC89/moodle/develop/screenshots/01.png", "https://raw.githubusercontent.com/AnthonyTC89/moodle/develop/screenshots/02.png"],
-        "pinned": true,
-        "skills": ["CSS", "Bootstrap", "React", "Redux", "RoR", "Heroku", "AWS"],
-        "mobile": false
-      },
-      {
-        "title": "Hassana Massages and Health",
-        "description": "Web Site build for a Business in Peru. The Page show the information about the business, services, products, testimonials and contact of the owner. The Site has a 'CMS' where an Administrator can create, update or delete what the owner needs.",
-        "live": "https://hassana-masaje-salud.herokuapp.com/",
-        "source": "https://github.com/AnthonyTC89/hassana",
-        "screenshots": ["https://raw.githubusercontent.com/AnthonyTC89/hassana/develop/screenshots/01.png", "https://raw.githubusercontent.com/AnthonyTC89/hassana/develop/screenshots/02.png"],
-        "pinned": true,
-        "skills": ["CSS", "Bootstrap", "React", "Redux", "RoR", "Heroku", "AWS", "GoogleMaps"],
-        "mobile": false
-      },
-      {
-        "title": "Events",
-        "description": "Personal Project where a user can create an account and select the events that he wants. The events will be order by date. A super user can create new events in new dates or update what were created.\nAn administrator can manage all users and create new super users.",
-        "live": "https://react-rails-events.herokuapp.com/",
-        "source": "https://github.com/AnthonyTC89/react-rails-events",
-        "screenshots": ["https://raw.githubusercontent.com/AnthonyTC89/react-rails-events/develop/screenshots/01.png", "https://raw.githubusercontent.com/AnthonyTC89/react-rails-events/develop/screenshots/02.png"],
-        "pinned": true,
-        "skills": ["Bootstrap", "React", "Redux", "RoR", "Heroku"],
-        "mobile": true
-      },
-      {
-        "title": "Odonto App",
-        "description": "Real Web application built for students of a University where is showed the teeth and is possible to select each teeth to know the description of each face.",
-        "live": "https://raw.githack.com/AnthonyTC89/odonto_app_uap/develop/index.html",
-        "source": "https://github.com/AnthonyTC89/odonto_app_uap",
-        "screenshots": ["https://raw.githubusercontent.com/AnthonyTC89/odonto_app_uap/develop/screenshots/01.png", "https://raw.githubusercontent.com/AnthonyTC89/odonto_app_uap/develop/screenshots/02.png"],
-        "pinned": true,
-        "skills": ["HTML", "CSS", "Bootstrap", "JavaScript", "PHP"],
-        "mobile": false
-      },
-      {
-        "title": "NewsWeek Clone",
-        "description": "Personal Project based in a popular Website. This WebPage is a layout with many sections about news, editor picks, magazine and amazing footer.",
-        "live": "https://anthonytc89.github.io/newsweek-clone/",
-        "source": "https://github.com/AnthonyTC89/newsweek-clone",
-        "screenshots": [
-          "https://raw.githubusercontent.com/AnthonyTC89/newsweek-clone/develop/screenshots/01.png",
-          "https://raw.githubusercontent.com/AnthonyTC89/newsweek-clone/develop/screenshots/02.png"
-        ],
-        "pinned": true,
-        "skills": ["HTML", "CSS", "Bootstrap"],
         "mobile": false
       }
     ]
@@ -158,8 +89,8 @@
     ]
   },
   "EducationInfo": {
-    "title": "Madiha Eman",
-    "text": "Hello! My name is Anthony Tapia, I live in Arequipa, Perú. I like to work remotely on projects for people all over the world making their lives or businesses easier. I have a diverse set of skills in Front-end and Back-end. I'm always looking for my next challenge, knowing that everything is possible working step-by-step. When I'm not coding, you can find me reading a book or playing guitar."
+    "title": "Hi! I am Madiha Eman",
+    "text": "I live in Karachi, Pakistan. I'm a Web Developer focused on building high-quality, thoughtful, and intuitive websites and web applications. Currently, I'm pursuing a certificate in Web App Development and Design at Saylani Mass IT Training Institution. I value the ideas of hard-work and persistence. These values have aided my career as a developer and have shaped me into the person I am today. I like to spend my free time adding on to my web stack and chasing my dream of becoming a best web developer. Other than coding, I find myself in singing and drawing "
   },
 
   "FooterInfo": {
@@ -200,27 +131,6 @@
     "upload": "Upload",
     "select": "Select",
     "submit": "Submit"
-  },
-  "UrlIcons": {
-    "HTML": "https://img.icons8.com/color/48/000000/html-5.png",
-    "CSS": "https://img.icons8.com/color/50/000000/css3.png",
-    "Bootstrap": "https://img.icons8.com/color/48/000000/bootstrap.png",
-    "JavaScript": "https://img.icons8.com/color/48/000000/javascript.png",
-    "nodeJS": "https://img.icons8.com/color/48/000000/nodejs.png",
-    "React": "https://img.icons8.com/plasticine/100/000000/react.png",
-    "Redux": "https://img.icons8.com/color/48/000000/redux.png",
-    "MongoDB": "https://img.icons8.com/color/48/000000/mongodb.png",
-    "PHP": "https://img.icons8.com/officel/40/000000/php-logo.png",
-    "Ruby": "https://img.icons8.com/office/40/000000/ruby-programming-language.png",
-    "RoR": "https://portfolio-atc.s3-sa-east-1.amazonaws.com/rails-icon-23.jpg",
-    "PostgreSQL": "https://img.icons8.com/color/48/000000/postgreesql.png",
-    "Heroku": "https://img.icons8.com/color/48/000000/heroku.png",
-    "AWS": "https://img.icons8.com/color/48/000000/amazon-web-services.png",
-    "Java": "https://img.icons8.com/color/48/000000/java-coffee-cup-logo.png",
-    "C#": "https://img.icons8.com/color/48/000000/c-sharp-logo.png",
-    "MSSQLServer": "https://www.freeiconspng.com/uploads/sql-server-icon-6.jpg",
-    "GoogleMaps": "https://portfolio-atc.s3-sa-east-1.amazonaws.com/google_maps_icon.png",
-    "Material-UI": "https://portfolio-atc.s3-sa-east-1.amazonaws.com/material-ui.png",
-    "SQL": "https://portfolio-atc.s3-sa-east-1.amazonaws.com/sql-icon.png"
   }
+ 
 }

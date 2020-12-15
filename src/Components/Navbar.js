@@ -48,7 +48,7 @@ const useStyles = makeStyles({
     color:'white'
   },
   link: {
-    color: 'whitesmoke',
+    color: 'black',
     fontSize: '0.8rem',
   },
   img: {
@@ -57,6 +57,10 @@ const useStyles = makeStyles({
   drawer: {
     zIndex: '999',
   },
+  back:{
+    background:'#97266D'
+
+  }
 });
 
 const Navbar = ({ setComponent }) => {

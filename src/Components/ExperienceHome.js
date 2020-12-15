@@ -13,7 +13,7 @@ import { ExperienceInfo, UrlIcons } from '../Info.json';
 // eslint-disable-next-line no-unused-vars
 const useStyles = makeStyles((theme) => ({
   mainContainer: {
-    background: "#233",
+    background: "black",
   },
   timeLine: {
     position: "relative",
@@ -113,7 +113,7 @@ const useStyles = makeStyles((theme) => ({
     color: "#97266D",
   },
   subtitle1: {
-    color: "white",
+    color: "whitesmoke",
   },
   para:{
     textTransform: 'lowercase'

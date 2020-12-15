@@ -24,7 +24,7 @@ const useStyles = makeStyles((theme) => ({
     opacity: '90%',
     width: '100%',
     height: '100%',
-    backgroundImage: `url(${ProjectsInfo.background})`,
+    backgroundImage: 'white',
     backgroundSize: 'contain',
     zIndex: '-999',
   },
@@ -125,25 +125,11 @@ const ProjectsHome = () => {
                   <Link className={classes.subtitle} href={item.live} target="_blank" rel="noreferrer">
                     {item.title}
                   </Link>
-                  <Link className={classes.caption} href={item.source} target="_blank" rel="noreferrer">
-                    Source
-                  </Link>
                 </Typography>
               </Hidden>
-              <ul className={classes.iconList}>
-                {item.skills.map((skill) => (
-                  <li key={uuidv4()}>
-                    <Grow in timeout={4000}>
-                      <img src={UrlIcons[skill]} alt="icon-skill" className={classes.icon} />
-                    </Grow>
-                  </li>
-                ))}
-              </ul>
-              <Typography className={classes.text} variant="body1">
-                {item.description}
-              </Typography>
-            </Grid>
           </Grid>
+          </Grid>
+
         ))}
       </Grid>
     </Slide>

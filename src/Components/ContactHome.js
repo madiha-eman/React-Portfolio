@@ -11,6 +11,7 @@ import Typography from '@material-ui/core/Typography';
 import CircularProgress from '@material-ui/core/CircularProgress';
 import { makeStyles } from '@material-ui/core/styles';
 import { buttons, ContactInfo } from '../Info.json';
+import './style.css';
 
 // eslint-disable-next-line no-unused-vars
 const useStyles = makeStyles((theme) => ({
@@ -23,10 +24,9 @@ const useStyles = makeStyles((theme) => ({
     position: 'absolute',
     top: '0',
     left: '0',
-    opacity: '80%',
     width: '100%',
     height: '100%',
-    background: 'black',
+    background: 'white',
     backgroundSize: 'cover',
     backgroundPosition: 'center',
     backgroundRepeat: 'no-repeat',
@@ -36,6 +36,7 @@ const useStyles = makeStyles((theme) => ({
     fontWeight: 400,
     fontSize: '3em',
     margin: '1rem',
+
   },
   picture: {
     width: '100%',
@@ -48,17 +49,25 @@ const useStyles = makeStyles((theme) => ({
     flexDirection: 'column',
     alignItems: 'center',
     justifyContent: 'center',
+    margin: 'auto',
+  
   },
   form: {
     display: 'flex',
     flexDirection: 'column',
     justifyContent: 'center',
     alignItems: 'center',
+    margin: 'auto',
+
   },
   text: {
     textAlign: 'center',
     padding: '0 2rem',
+    color: 'white'
   },
+  textfield:{
+    width: '300px',
+  }
 }));
 
 const emptyEmail = {
@@ -110,18 +119,23 @@ const ContactHome = () => {
             {title}
           </Typography>
         </Grid>
-        <Grid item xs={12} md={6} className={classes.columnForm}>
+        <Grid item xs={12} md={12} className={classes.columnForm}>
           <form onSubmit={handleSubmit} className={classes.form}>
             <TextField
-              margin="dense"
-              name="from_name"
-              variant="outlined"
-              id="from_name"
-              value={email.from_name}
-              label="your name (optional)"
-              onChange={handleChange}
+            className={classes.textfield}
+            className='textfield'
+            margin="dense"
+            type="name"
+            name="from_name"
+            variant="outlined"
+            id="from_name"
+            value={email.from_name}
+            label="your name(optional)"
+            onChange={handleChange}
             />
             <TextField
+              className={classes.textfield}
+              className='textfield'
               margin="dense"
               type="email"
               name="from_email"
@@ -133,7 +147,9 @@ const ContactHome = () => {
               required
             />
             <TextField
-              margin="dense"
+             className={classes.textfield}
+             className='textfield'
+             margin="dense"
               multiline
               rows="8"
               name="message_html"
