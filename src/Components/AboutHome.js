@@ -15,15 +15,17 @@ const useStyles = makeStyles((theme) => ({
     textAlign: 'center',
     minHeight: window.innerHeight,
     position: 'relative',
-    backgroung: 'black',
+    backgroung: 'black !important',
   },
   background: {
     position: 'absolute',
     top: '0',
     left: '0',
     opacity: '90%',
-    background:'black',
-
+    background:'black !important',
+    backgroundSize: 'cover',
+    backgroundPosition: 'center',
+    backgroundRepeat: 'no-repeat',
     zIndex: '-999',
   },
   title: {
