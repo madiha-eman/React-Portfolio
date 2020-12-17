@@ -5,7 +5,9 @@
       "subtitle": "Full Stack Developer",
       "location": "https://portfolio-atc.s3-sa-east-1.amazonaws.com/gravatar.png",
       "key": "anthony-tapia"
-    }
+    },
+    "background":"https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FBlack_Standard&psig=AOvVaw1CyrDgJA2OgonYe3kVQbYk&ust=1608277666006000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCMD7_qrD1O0CFQAAAAAdAAAAABAD"
+    
   },
   "NavbarInfo" : {
     "home": "Home",
