@@ -6,7 +6,7 @@
       "location": "https://portfolio-atc.s3-sa-east-1.amazonaws.com/gravatar.png",
       "key": "anthony-tapia"
     },
-    "background":"https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FBlack_Standard&psig=AOvVaw1CyrDgJA2OgonYe3kVQbYk&ust=1608277666006000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCMD7_qrD1O0CFQAAAAAdAAAAABAD"
+    "background":"https://mcdn.wallpapersafari.com/medium/85/96/OMqDa7.jpg"
     
   },
   "NavbarInfo" : {
@@ -31,7 +31,8 @@
     "lng": -71.5243293,
     "userID": "user_rNvpe3qVkqG4Htik4Ehnc",
     "serviceID": "gmail",
-    "templateID": "template_portfolio_v2"
+    "templateID": "template_portfolio_v2",
+    "background":"https://mcdn.wallpapersafari.com/medium/85/96/OMqDa7.jpg"
   },
   "ProjectsInfo": {
     "title": "My Projects",
@@ -66,7 +67,7 @@
   },
   "ExperienceInfo": {
     "title": "My Work Experience",
-    "background": "https://portfolio-atc.s3-sa-east-1.amazonaws.com/bg-wall.jpg",
+    "background": "https://mcdn.wallpapersafari.com/medium/85/96/OMqDa7.jpg",
     "experience": [
       {
         "date": "May 2016 - December 2018",

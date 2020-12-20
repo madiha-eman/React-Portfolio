@@ -21,6 +21,8 @@ const useStyles = makeStyles((theme) => ({
     top: '0',
     left: '0',
     opacity: '90%',
+    width: '100%',
+    height: '100%',
     background:`url(${AboutInfo.background})`,
     backgroundSize: 'cover',
     backgroundPosition: 'center',

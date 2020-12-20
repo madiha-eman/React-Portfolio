@@ -1,13 +1,21 @@
 import React from 'react';
 import Typography from '@material-ui/core/Typography';
+import Slide from '@material-ui/core/Slide';
 import { makeStyles } from '@material-ui/core/styles';
 import Box from "@material-ui/core/Box";
+import Grow from '@material-ui/core/Grow';
+
+
 
 
 // eslint-disable-next-line no-unused-vars
 const useStyles = makeStyles((theme) => ({
+ 
+ 
   mainContainer: {
-    background: "black",
+ 
+    background: 'black',
+
   },
   timeLine: {
     position: "relative",
@@ -117,6 +125,7 @@ const useStyles = makeStyles((theme) => ({
 const ExperienceHome = () => {
   const classes = useStyles();
   return (
+    <Slide direction="up" in timeout={1000}>
     <Box component="header" className={classes.mainContainer}>
       <Typography variant="h4" align="center" className={classes.heading}>
        Madiha EMAN
@@ -131,6 +140,7 @@ const ExperienceHome = () => {
         >
           EDUCATION
         </Typography>
+        <Grow in timeout={3000}>
         <Box component="div" className={classes.timeLineItem}>
           <Typography
             variant="h5"
@@ -155,12 +165,14 @@ const ExperienceHome = () => {
              Graduation (B.com) from Karachi University, Continue…</li> </ul>
           </Typography>
         </Box>
+        </Grow>
         <Typography
           variant="h2"
           className={`${classes.timeLineYear} ${classes.timeLineItem}`}
         >
           SKILLS
         </Typography>
+        <Grow in timeout={4000}>
         <Box component="div" className={classes.timeLineItem}>
           <Typography
             variant="h5"
@@ -188,6 +200,7 @@ const ExperienceHome = () => {
             </ul>
           </Typography>
         </Box>
+        </Grow>
         <Typography
           variant="h2"
           className={`${classes.timeLineYear} ${classes.timeLineItem}`}
@@ -205,6 +218,8 @@ const ExperienceHome = () => {
           <Typography variant="body1" align="center" className={classes.body1}>
            
           </Typography>
+          <Grow in timeout={5000}>
+
           <Typography
             variant="subtitle1"
             align="center"
@@ -215,6 +230,7 @@ const ExperienceHome = () => {
              <li>Web and Mobile App Development(continue) </li>
            </ul>
           </Typography>
+          </Grow>
         </Box>
         <Typography
           variant="h2"
@@ -232,6 +248,7 @@ const ExperienceHome = () => {
           </Typography>
           <Typography variant="body1" align="center" className={classes.body1}>
           </Typography>
+          <Grow in timeout={3000}>
           <Typography
             variant="subtitle1"
             align="center"
@@ -239,9 +256,11 @@ const ExperienceHome = () => {
           >
                      No Experiance
           </Typography>
+          </Grow>
         </Box>
       </Box>
     </Box>
+    </Slide>
   );
 };
 
