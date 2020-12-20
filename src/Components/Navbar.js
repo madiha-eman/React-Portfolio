@@ -44,8 +44,10 @@ const useStyles = makeStyles({
     color:'white'
   },
   link: {
-    color: 'black',
-    fontSize: '0.8rem',
+    color: '#97266D',
+    fontSize: '0.9rem',
+    width:'180px',
+    marginTop: '40px'
   },
   img: {
     width: '7rem',
