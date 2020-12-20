@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import { makeStyles } from '@material-ui/core/styles';
 import IconButton from '@material-ui/core/IconButton';
-import DownloadIcon from '@material-ui/icons/GetApp';
+import Avatar from '@material-ui/core/Avatar';
 import MenuIcon from '@material-ui/icons/Menu';
 import Drawer from '@material-ui/core/Drawer';
 import AppBar from '@material-ui/core/AppBar';
@@ -13,13 +13,13 @@ import Divider from '@material-ui/core/Divider';
 import Button from '@material-ui/core/Button';
 import HomeIcon from '@material-ui/icons/Home';
 import Hidden from '@material-ui/core/Hidden';
-import Link from '@material-ui/core/Link';
 import AboutHome from './AboutHome';
 import ContactHome from './ContactHome';
 import ProjectsHome from './ProjectsHome';
 import ExperienceHome from './ExperienceHome';
 import EducationHome from './EducationHome';
 import { NavbarInfo } from '../Info.json';
+import logo from './logo.png'
 
 const useStyles = makeStyles({
   root: {
@@ -58,12 +58,16 @@ const useStyles = makeStyles({
   back:{
     background:'#97266D'
 
+  },
+  logo:{
+ 
+
   }
 });
 
 const Navbar = ({ setComponent }) => {
   const classes = useStyles();
-  const { contact, experience, projects, education, resume } = NavbarInfo;
+  const { contact, experience, projects, education } = NavbarInfo;
   const [drawerOpen, setDrawerOpen] = useState(false);
 
   const handleComponent = (Component) => {
@@ -82,7 +86,7 @@ const Navbar = ({ setComponent }) => {
       <AppBar position="fixed" color="inherit">
         <Toolbar className={classes.root}>
           <Grid container className={classes.container}>
-            <Hidden smDown>
+                   <Hidden smDown>
               <Divider orientation="vertical" flexItem />
               <Button
                 onClick={() => handleComponent(ContactHome)}
@@ -127,18 +131,17 @@ const Navbar = ({ setComponent }) => {
               <Divider orientation="vertical" flexItem />
             </Hidden>
           </Grid>
-          <Link href={resume.href} target="_blank" rel="noopener" underline="none">
-            <Hidden xsDown>
+          <Hidden xsDown>
               <Button
-                className={classes.link}
               >
-                {resume.text}
+
               </Button>
             </Hidden>
             <IconButton>
-              <DownloadIcon />
+            <Avatar src={logo} className={classes.logo}/>
+
             </IconButton>
-          </Link>
+          
           <Hidden mdUp>
             <IconButton
               aria-label="open drawer"
