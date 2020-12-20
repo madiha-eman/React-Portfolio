@@ -45,16 +45,12 @@ const useStyles = makeStyles((theme) => ({
   },
   img: {
     marginTop: '30px',
-    width: '26rem',
+    maxHeight: '20rem',
+    maxWidth: '90%',
     boxShadow: '0px 10px 10px 0px gray',
     borderRadius: '50%',
   },
-  text: {
-    textAlign: 'center',
-    padding: '0 2rem',
-    margin: '8rem auto 4rem auto',
-    color: 'lightgray',
-  },
+  
   
 
 }));
@@ -78,7 +74,7 @@ const AboutHome = () => {
           loop/>
           </Typography>
         </Grid>
-        <Grid item xs={12} sm={12} md={6} className={classes.columnImg}>
+        <Grid item xs={12} md={6} className={classes.columnImg}>
           <Grow in timeout={3000}>
             <picture className={classes.picture}>
               <img className={classes.img} src={girl} alt={about.key} />
