@@ -58,7 +58,7 @@
       {
         "title": " Demo - Pacman css-Animation",
         "description": "This is a Personal Project where the main purpose is know basics about socket.io with React and NodeJS. This is a responsive website where an User can join in a public chat and share text between other users connected.",
-        "live": "",
+        "live": "https://madiha-eman-project2.netlify.app/",
         "screenshots": ["https://github.com/madiha-eman/React-Portfolio/blob/master/src/Images/pacman.jpg?raw=true"],
         "pinned": true,
         "mobile": false
@@ -76,7 +76,7 @@
       {
         "title": " Demo = Covid19-App",
         "description": "This is a Personal Project where the main purpose is know basics about socket.io with React and NodeJS. This is a responsive website where an User can join in a public chat and share text between other users connected.",
-        "live": "",
+        "live": "https://covid-19-app-eman.netlify.app/",
         "screenshots": ["https://github.com/madiha-eman/React-Portfolio/blob/master/src/Images/covid199.jpg?raw=true"],
         "pinned": true,
         "mobile": false
@@ -86,7 +86,7 @@
       {
         "title": " Demo - E-commerce Shop",
         "description": "This is a Personal Project where the main purpose is know basics about socket.io with React and NodeJS. This is a responsive website where an User can join in a public chat and share text between other users connected.",
-        "live": "",
+        "live": "https://e-shop-eman.netlify.app/",
         "screenshots": ["https://github.com/madiha-eman/React-Portfolio/blob/master/src/Images/e-com.jpg?raw=true"],
         "pinned": true,
         "mobile": false
