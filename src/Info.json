@@ -67,7 +67,7 @@
       {
         "title": " Demo - TodoList",
         "description": "This is a Personal Project where the main purpose is know basics about socket.io with React and NodeJS. This is a responsive website where an User can join in a public chat and share text between other users connected.",
-        "live": "",
+        "live": "https://react-todo-app-eman.netlify.app/",
         "screenshots": ["https://github.com/madiha-eman/React-Portfolio/blob/master/src/Images/todo.jpg?raw=true"],
         "pinned": true,
         "mobile": false
