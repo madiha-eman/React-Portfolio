@@ -227,7 +227,7 @@ const ExperienceHome = () => {
           >
            <ul>
              <li>MS OFFICE (Professional)</li>
-             <li>Web and Mobile App Development(continue) </li>
+             <li>Web and Mobile App Development </li>
            </ul>
           </Typography>
           </Grow>
@@ -254,7 +254,7 @@ const ExperienceHome = () => {
             align="center"
             className={classes.subtitle1}
           >
-                     No Experiance
+                     No Experience 
           </Typography>
           </Grow>
         </Box>
